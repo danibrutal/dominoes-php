@@ -1,0 +1,15 @@
+{
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+          "DanielM\\Domino\\": "src/"
+        }
+      },
+      "autoload-dev": {
+        "psr-4": {
+          "unit\\Domino\\": "src/Tests/unit/"
+        }
+      }
+}
