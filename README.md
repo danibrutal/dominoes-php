@@ -7,6 +7,7 @@ Below I leave some basic instructions to run the game and the tests.
 
 Please feel free to give me feedback or ask me any questions about the implementation!
 
+Thank you!
 ## Dependencies
 The only third party library I used was phpunit to guide the development with unit tests. Something I am used to, and hope it's okay :).
 
