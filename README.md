@@ -1,15 +1,16 @@
 # dominoes-php
 
-## Hi! I just finished the Domino game, and I have to say it was quite fun :).
+## Hi! 
+I just finished the Domino game, and I have to say it was quite fun :).
 I tried to make the code as readable as possible, trying to map some real-world concepts (Player, Board, Game, Piece) with some simple PHP Objects. Performance hasn't been my top concern.
 Below I leave some basic instructions to run the game and the tests. 
 
 Please feel free to give me feedback or ask me any questions about the implementation!
 
 ## Dependencies
-Only third party library I used was phpunit to guide the development with unit tests. Something I am used to, and hope it's okay :).
+The only third party library I used was phpunit to guide the development with unit tests. Something I am used to, and hope it's okay :).
 
-Run ```composer install``` to install phpunit
+Run ```composer install``` in the root directory to install phpunit (requires composer installation)
 
 ## How to run the tests?
 I run ```./vendor/phpunit/phpunit/phpunit src/Tests/unit/``` in the root directory. It should show a message
