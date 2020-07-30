@@ -1,34 +1,34 @@
 # dominoes-php
 
--- Hi! I just finished the Domino game, and I have to say it was quite fun :).
+## Hi! I just finished the Domino game, and I have to say it was quite fun :).
 I tried to make the code as readable as possible, trying to map some real-world concepts (Player, Board, Game, Piece) with some simple PHP Objects. Performance hasn't been my top concern.
 Below I leave some basic instructions to run the game and the tests. 
 
 Please feel free to give me feedback or ask me any questions about the implementation!
 
--- Dependencies
+## Dependencies
 Only third party library I used was phpunit to guide the development with unit tests. Something I am used to, and hope it's okay :).
 
 Run ```composer install``` to install phpunit
 
--- How to run the tests?
-I run ```./vendor/phpunit/phpunit/phpunit src/Tests/unit/` in the root directory. It should show a message
+## How to run the tests?
+I run ```./vendor/phpunit/phpunit/phpunit src/Tests/unit/``` in the root directory. It should show a message
 
 like this:
-```Configuration: /var/www/domino/phpunit.xml
+```
+Configuration: /var/www/domino/phpunit.xml
 
 ................................................................. 65 / 74 ( 87%)
 .........                                                         74 / 74 (100%)
 
 Time: 807 ms, Memory: 6.00 MB
 
-OK (74 tests, 129 assertions)```
+OK (74 tests, 129 assertions)
+```
 
--- How to run the game?
+## How to run the game?
 In the root directory, run
-```
-php app.php
-```
+```php app.php```
 
 Output should be something like (in the case that a player wins):
 ```
@@ -57,5 +57,6 @@ Bob plays <3:5> to connect to tile <1:5> on the board
 Board is now: <4:6> <6:5> <5:5> <5:2> <2:6> <6:6> <6:3> <3:3> <3:1> <1:1> <1:5> <5:3>
 Alice plays <0:3> to connect to tile <5:3> on the board
 Board is now: <4:6> <6:5> <5:5> <5:2> <2:6> <6:6> <6:3> <3:3> <3:1> <1:1> <1:5> <5:3> <3:0>
-Player Alice has won!```
+Player Alice has won!
+```
 
