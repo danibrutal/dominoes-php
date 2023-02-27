@@ -3,7 +3,7 @@
 Implementation of a Domino game in PHP in command-line 
 
 ## Dependencies
-The only third party library I used was phpunit to guide the development with unit tests.
+The only third party library used is phpunit to guide the development with unit tests.
 
 Run ```composer install``` in the root directory to install phpunit (requires composer installation)
 
